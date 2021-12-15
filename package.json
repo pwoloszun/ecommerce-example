@@ -1,0 +1,42 @@
+{
+  "version": "0.1.0",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "json-server": "json-server ./server/db.json -p 3100 -r ./server/config/routes.json -S ./server/snapshots"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "~1.6.1",
+    "axios": "~0.21.1",
+    "bootstrap": "~5.1.0",
+    "bootstrap-icons": "~1.5.0",
+    "faker": "~5.5.3",
+    "lodash": "~4.17.21",
+    "pixi.js": "~6.1.2",
+    "react": "~17.0.2",
+    "react-bootstrap": "~1.6.1",
+    "react-bootstrap-icons": "~1.5.0",
+    "react-dom": "~17.0.2",
+    "react-icons": "~4.2.0",
+    "react-use": "~17.2.4",
+    "react-router-dom": "~5.2.1",
+    "styled-components": "~5.3.1"
+  },
+  "devDependencies": {
+    "@types/faker": "~5.5.8",
+    "@types/holderjs": "~2.9.2",
+    "@types/lodash": "~4.14.172",
+    "@types/react": "~17.0.19",
+    "@types/react-dom": "~17.0.9",
+    "@types/react-router-dom": "~5.1.8",
+    "@types/styled-components": "~5.1.13",
+    "@vitejs/plugin-react-refresh": "~1.3.6",
+    "holderjs": "~2.9.9",
+    "json-server": "~0.16.3",
+    "typescript": "~4.3.5",
+    "vite": "~2.5.0",
+    "vite-tsconfig-paths": "~3.3.13"
+  }
+}
